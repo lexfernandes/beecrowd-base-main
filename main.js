@@ -9,7 +9,6 @@ const setProblem = (problemNumber) => localStorage.setItem('problem', problemNum
 const solveProblem = async () =>  {
     const input = document.getElementById('input')
                           .value.split(/\r|\n/)
-
     const problemNumber = document.getElementById('problem').value
     setProblem (problemNumber)
     
