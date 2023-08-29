@@ -5,9 +5,6 @@ export function problem (lines) {
     const maiorAB = (a + b + Math.abs(a - b)) / 2
     const maiorC = (c + maiorAB + Math.abs (c - maiorAB)) / 2
       
-
     console.log(`${maiorC} eh o maior`)
-
-   
 
  }
