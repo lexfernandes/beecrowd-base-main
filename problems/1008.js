@@ -7,8 +7,6 @@ export function problem (lines) {
     let media = Number(clock) * Number(workHours)
 
     console.log(`NUMBER = ${number}`)
-    console.log(`SALARY = ${media.toFixed(2)}`)
-
-
+    console.log(`SALARY = U$ ${media.toFixed(2)}`)
    
  }
